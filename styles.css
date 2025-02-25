@@ -1,0 +1,94 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+}
+
+header {
+    background: #102f61;
+    color: #fff;
+    padding: 10px 0;
+    text-align: center;
+}
+
+#buy {
+    width: 250px;
+    background-color: #2158b0; /* Green background */
+    color: white; /* Text color */
+    border: none; /* Remove default border */
+    border-radius: 5px; /* Rounded corners */
+    padding: 10px 15px; /* Padding for spacing */
+    cursor: pointer; /* Pointer cursor on hover */
+    font-size: 16px; /* Text size */
+    margin-top: 10px; /* Space above button */
+    transition: background-color 0.3s ease; /* Smooth transition */
+}
+
+#buy:hover {
+    background-color: #3579e8; /* Darker green on hover */
+}
+
+#buy:active {
+    background-color: #1e7e34; /* Even darker green when clicked */
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin: 0 15px;
+}
+
+nav ul li a {
+    color: #fff;
+    text-decoration: none;
+}
+
+.hero {
+    background: url('https://png.pngtree.com/thumb_back/fh260/back_our/20190621/ourmid/pngtree-diamond-jewelry-advertising-psd-material-image_195800.jpg') no-repeat center center/cover;
+    height: 300 px;
+    color: #fff;
+    text-align: center;
+    padding: 100px 0;
+}
+
+.featured, .testimonials {
+    padding: 20px;
+    background: #fff;
+    margin: 20px;
+    border-radius: 5px;
+}
+
+.product-list {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+.product-item {
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    padding: 10px;
+    margin: 10px;
+    text-align: center;
+    width: 30%;
+}
+.about-image, .contact-image {
+    width: 100%;
+    height: auto;
+    margin-top: 20px;
+}
+
+footer {
+    text-align: center;
+    padding: 10px 0;
+    background: #102f61;
+    color: #fff;
+    position: relative;
+    bottom: 0;
+    width: 100%;
+}
