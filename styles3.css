@@ -105,6 +105,44 @@ h2 {
     background-color: #4a0e6a;
 }
 
+@media only screen and (max-width: 600px) {
+    nav ul {
+        display: block; /* Stack the nav items vertically */
+        text-align: center;
+    }
+
+    nav ul li {
+        display: block; /* Each nav item in a block */
+        margin: 10px 0; /* Space between nav items */
+    }
+
+    #contact {
+        padding: 15px; /* Reduced padding for mobile */
+        margin: 10px; /* Reduced margin */
+    }
+
+    .contact-info {
+        margin-bottom: 15px; /* Reduce margin at the bottom */
+    }
+
+    .contact-form {
+        padding: 0; /* No extra padding for mobile forms */
+    }
+
+    .contact-form input,
+    .contact-form textarea {
+        font-size: 14px; /* Slightly smaller font */
+    }
+
+    .contact-form button {
+        font-size: 14px; /* Adjust button font size for mobile */
+    }
+    
+    footer {
+        padding: 15px; /* Increase footer padding */
+    }
+}
+
 footer {
     text-align: center;
     padding: 10px 0;
