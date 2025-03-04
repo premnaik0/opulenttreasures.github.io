@@ -83,6 +83,42 @@ nav ul li a {
     margin-top: 20px;
 }
 
+@media only screen and (max-width: 600px) {
+    nav ul {
+        display: block; /* Stack the nav items on top of each other */
+        text-align: center;
+    }
+
+    nav ul li {
+        display: block;
+        margin: 10px 0; /* Space between each menu item */
+    }
+
+    .hero {
+        padding: 50px 0; /* Reduced padding for mobile */
+        height: 200px; /* Adjusting height for smaller screens */
+    }
+
+    .product-list {
+        flex-direction: column; /* Stack products vertically */
+        align-items: center; /* Center items */
+    }
+
+    .product-item {
+        width: 90%; /* Full width with some margin */
+        max-width: none; /* Remove max-width */
+        margin: 10px 0; /* Space between product items */
+    }
+
+    #buy {
+        width: 100%; /* Full width for buttons */
+    }
+
+    footer {
+        padding: 20px 0; /* Increased padding for footer on mobile */
+    }
+}
+
 footer {
     text-align: center;
     padding: 10px 0;
