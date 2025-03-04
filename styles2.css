@@ -59,6 +59,43 @@ p {
     border-radius: 8px;
 }
 
+@media only screen and (max-width: 600px) {
+    nav ul {
+        display: block; /* Stack nav items vertically for mobile */
+        text-align: center;
+    }
+
+    nav ul li {
+        display: block; /* Each nav item in a block */
+        margin: 10px 0; /* Space between nav items */
+    }
+
+    main {
+        padding: 10px; /* Reduce main padding */
+    }
+
+    #about {
+        margin: 10px; /* Adjust margin for smaller screens */
+        padding: 15px; /* Reduce padding inside about section */
+    }
+
+    h2 {
+        font-size: 24px; /* Adjust header font size for mobile */
+    }
+
+    p {
+        font-size: 14px; /* Adjust paragraph font size for mobile */
+    }
+
+    .about-image {
+        margin: 15px auto; /* Adjust margin for image */
+    }
+
+    footer {
+        padding: 15px; /* Increase footer padding */
+    }
+}
+
 footer {
     text-align: center;
     padding: 10px 0;
